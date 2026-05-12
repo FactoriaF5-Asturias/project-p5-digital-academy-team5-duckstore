@@ -1,0 +1,8 @@
+@import "./reset.css";
+@import "./layout.css";
+@import "./typography.css";
+
+
+:root {
+    --color-backgound: #ffffff;
+}
