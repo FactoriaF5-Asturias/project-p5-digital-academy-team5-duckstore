@@ -1,0 +1,74 @@
+body {
+    background-color: var(--color-body-background);
+}
+
+/* === HEADER === */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 10vh;
+    max-height: 10vh;
+    background-color: var(--color-header-background);
+    box-shadow: var(--box-shadow-light);
+}
+
+.header_container {
+    padding: var(--padding-medium);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .header_navigation { } */
+
+.header_navigation_list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-medium);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* === HERO SECTION === */
+
+.hero_section {
+    min-height: 90vh;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_container {
+    height: 66vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-large);
+}
+
+.hero_content {
+    width: 50%;
+    padding: var(--padding-medium);
+}
+
+
+.hero_image {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    border-radius: var(--border-radius-medium);
+    box-shadow: var(--box-shadow-medium);
+}
+
+
+/* === PRODUCTS SECTION === */
+
+
+
+

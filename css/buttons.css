@@ -1,0 +1,55 @@
+/* BUTTON IS A DIV ELEMENT !!! */
+
+.header_button {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: var(--padding-small) var(--padding-medium);
+    border: none;
+    border-radius: var(--border-radius-medium);
+    font-family: var(--font-family-heading);
+    font-size: var(--text-lg);
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+
+    box-shadow: var(--box-shadow-light);
+}
+
+.header_button:hover {
+    background-color: var(--color-primary-accent);
+    color: var(--color-text-inverted);
+}
+
+.hero_button {
+    padding: var(--padding-medium);
+    width: 150px;
+    
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border: none;
+    border-radius: var(--border-radius-medium);
+    
+    text-align: center;
+    font-family: var(--font-family-heading);
+    font-size: var(--text-lg);
+    cursor: pointer;
+    transition: all 0.3s ease, color 0.3s ease;
+
+    box-shadow: var(--box-shadow-medium);
+}
+
+.hero_button:hover {
+    background-color: var(--color-primary-accent);
+    color: var(--color-text-inverted);
+}
+
+.button_common {
+
+}
+
+.product_button {
+
+}
+
+.newsletter_button {
+
+}
