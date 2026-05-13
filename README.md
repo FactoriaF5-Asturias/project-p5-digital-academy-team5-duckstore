@@ -7,7 +7,7 @@
 0. ✅ Cambiar la rama con `dev/home`. 
 1. ✅ Crear una estructura en `index.html`. 
 2. ✅ Añadir las imagenes. 
-3. Añadir los textos.
+3. ✅ Añadir los textos.
 4. Crear las clases y ids de elementos.
 5. Añadir variables de estilos en `styles.css`.
 6. Añadir los estilos a `layout.css`.
