@@ -38,3 +38,12 @@ a {
 
 /* === PRODUCTS SECTION === */
 
+
+
+/* === NEWSLETTER SECTION ===  */
+
+.newsletter_title {
+    margin: 0;
+
+    font-size: var(--text-3xl);
+}
