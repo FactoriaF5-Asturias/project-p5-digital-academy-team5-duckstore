@@ -1,3 +1,4 @@
+Nerea:
 # PLAN:
 
 1. Crear mockups en Google Stitch
@@ -12,6 +13,10 @@
 <img src= "./assets/images/mockups/wireframe-home.png">
 <img src= "./assets/images/mockups/prototipo-home.png">
 
+
+
+<br> 
+Daniel:
 ## MVP: Home Page | Etapas:
 0. ✅ Cambiar la rama con `dev/home`. 
 1. ✅ Crear una estructura en `index.html`. 
