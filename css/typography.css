@@ -7,10 +7,15 @@ a {
 
 .header_logo {
     font-family: var(--font-family-fantasy);
-    font-size: var(--text-xl);
+    font-size: var(--text-3xl);
     color: var(--color-primary-accent);
     font-weight: bold;
     text-decoration: none;
+}
+
+.header_logo_icon {
+    margin-right: -5px;
+    margin-bottom: -3px;
 }
 
 .header_navigation_link {

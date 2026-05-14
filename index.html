@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +11,16 @@
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/buttons.css">
- 
+
 </head>
+
 <body>
     <!-- === HEADER === -->
     <header>
         <div class="header_container">
             <!-- Logo -->
             <a class="header_logo" href="#">
+                <img height=30 class="header_logo_icon" src="./assets/icons/duck_logo.png">
                 DuckStore
             </a>
 
@@ -33,7 +36,7 @@
 
             <!-- Action Button -->
             <a href="#">
-                <div class="header_button">Comprar</div>
+                <div id="btn_header" class="button_action">Comprar</div>
             </a>
         </div>
     </header>
@@ -45,9 +48,10 @@
             <div class="hero_container">
                 <div class="hero_content">
                     <h1 class="hero_title">Los patitos de goma más cool del mundo</h1>
-                    <p class="hero_description">Descubre nuestra colección de patitos de goma más adorables y únicos del mercado.</p>
+                    <p class="hero_description">Descubre nuestra colección de patitos de goma más adorables y únicos del
+                        mercado.</p>
                     <a href="#">
-                        <div class="hero_button">Comprar ahora</div>
+                        <div id="btn_hero" class="button_action_big">Comprar ahora</div>
                     </a>
                 </div>
                 <img class="hero_image" src="./assets/images/duck_hero.png" alt="Big Duck Image" />
@@ -56,52 +60,61 @@
 
         <!-- PRODUCTS SECTION -->
         <section class="products_section">
-            <div class="products_header">
-                <h2>Our Products</h2>
-                <a href="#">
-                    <div class="button_common">View all</div>
-                </a>
-            </div>
-            
-            <!-- Products Grid -->
-            <div class="products_grid">
-                <div class="product_card">
-                    <img class="product_image" src="./assets/images/duck_5.png" alt="Product 1" />
-                    <h3 class="product_title">Duck #3172</h3>
-                    <p class="product_description">Un patito de goma adorable y único.</p>
-                    <span class="product_price">Price: €579.99</span>
+            <div class="products_container">
+                <div class="products_header">
+                    <h2>Our Products</h2>
                     <a href="#">
-                        <div class="product_button">Comprar</div>
-                    </a>
-                </div>
-                <div class="product_card">
-                    <img class="product_image" src="./assets/images/duck_4.png" alt="Product 2" />
-                    <h3 class="product_title">Duck #3173</h3>
-                    <p class="product_description">Un patito de goma adorable y único.</p>
-                    <span class="product_price">Price: €499.99</span>
-                    <a href="#">
-                        <div class="product_button">Comprar</div>
-                    </a>
-                </div>
-                <div class="product_card">
-                    <img class="product_image" src="./assets/images/duck_3.png" alt="Product 3" />
-                    <h3 class="product_title">Duck #3174</h3>
-                    <p class="product_description">Un patito de goma adorable y único.</p>
-                    <span class="product_price">Price: €399.99</span>
-                    <a href="#">
-                        <div class="product_button">Comprar</div>
-                    </a>
-                </div>
-                <div class="product_card">
-                    <img class="product_image" src="./assets/images/duck_2.png" alt="Product 4" />
-                    <h3 class="product_title">Duck #3175</h3>
-                    <p class="product_description">Un patito de goma adorable y único.</p>
-                    <span class="product_price">Price: €299.99</span>
-                    <a href="#">
-                        <div class="product_button">Comprar</div>
+                        <div id="btn_view_all" class="button_common">View all</div>
                     </a>
                 </div>
 
+                <!-- Products Grid -->
+                <div class="products_list">
+                    <div class="product_card">
+                        <img class="product_image" src="./assets/images/duck_5.png" alt="Product 1" />
+                        <div class="product_card_content">
+                            <h3 class="product_title">Duck #3172</h3>
+                            <p class="product_description">Un patito de goma adorable y único.</p>
+                            <span class="product_price">Price: €579.99</span>
+                        </div>
+                        <a href="#">
+                            <div id="btn_product" class="button_action_secondary">Comprar</div>
+                        </a>
+                    </div>
+                    <div class="product_card">
+                        <img class="product_image" src="./assets/images/duck_4.png" alt="Product 2" />
+                        <div class="product_card_content">
+                            <h3 class="product_title">Duck #3173</h3>
+                            <p class="product_description">Un patito de goma adorable y único.</p>
+                            <span class="product_price">Price: €499.99</span>
+                        </div>
+                        <a href="#">
+                            <div id="btn_product" class="button_action_secondary">Comprar</div>
+                        </a>
+                    </div>
+                    <div class="product_card">
+                        <img class="product_image" src="./assets/images/duck_3.png" alt="Product 3" />
+                        <div class="product_card_content">
+                            <h3 class="product_title">Duck #3174</h3>
+                            <p class="product_description">Un patito de goma adorable y único.</p>
+                            <span class="product_price">Price: €399.99</span>
+                        </div>
+                        <a href="#">
+                            <div id="btn_product" class="button_action_secondary">Comprar</div>
+                        </a>
+                    </div>
+                    <div class="product_card">
+                        <img class="product_image" src="./assets/images/duck_2.png" alt="Product 4" />
+                        <div class="product_card_content">
+                            <h3 class="product_title">Duck #3175</h3>
+                            <p class="product_description">Un patito de goma adorable y único.</p>
+                            <span class="product_price">Price: €299.99</span>
+                        </div>
+                        <a href="#">
+                            <div id="btn_product" class="button_action_secondary">Comprar</div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -113,7 +126,7 @@
                     <p class="newsletter_description">Stay updated with our latest products and offers.</p>
                     <form class="newsletter_form">
                         <input class="newsletter_input" type="email" placeholder="Enter your email" required />
-                        <div class="newsletter_button" type="submit">Subscribe</div>
+                        <div id="btn_newsletter" class="button_action_secondary" type="submit">Subscribe</div>
                     </form>
                 </div>
             </div>
@@ -121,7 +134,7 @@
     </main>
 
     <!-- === FOOTER === -->
-    <footer class="footer">
+    <footer>
         <div class="footer_container">
             <!-- Footer Content -->
             <div class="footer_content">
@@ -145,4 +158,5 @@
         </div>
     </footer>
 </body>
+
 </html>

@@ -13,8 +13,8 @@
 6. Añadir los estilos a `layout.css` y `buttons.css`.
     1. ✅ Header
     2. ✅ Hero Section
-    3. Products Section
+    3. ✅ Products Section
     4. Newsletter Section
-    5. Footer 
+    5. ✅ Footer 
 7. Añadir estilos de tipografía en `typography.css`.
 8. Despliegue MVP a GitHub Pages. 
