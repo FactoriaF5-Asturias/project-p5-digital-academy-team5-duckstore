@@ -1,0 +1,40 @@
+a {
+    text-decoration: none;
+}
+
+
+/* === HEADER === */
+
+.header_logo {
+    font-family: var(--font-family-fantasy);
+    font-size: var(--text-3xl);
+    color: var(--color-primary-accent);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header_logo_icon {
+    margin-right: -5px;
+    margin-bottom: -3px;
+}
+
+.header_navigation_link {
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-family: var(--font-family-heading);
+    font-size: var(--text-base);
+}
+
+.header_navigation_link:hover {
+    color: var(--color-secondary-accent);
+    text-decoration: underline;
+}
+
+/* === HERO SECTION === */
+
+.hero_title {}
+
+.hero_description {}
+
+/* === PRODUCTS SECTION === */
+
