@@ -32,3 +32,4 @@ Daniel:
     5. ✅ Footer 
 7. ✅ Añadir estilos de tipografía en `typography.css`.
 8. ✅ Despliegue MVP a GitHub Pages. 
+
