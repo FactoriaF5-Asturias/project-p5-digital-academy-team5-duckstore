@@ -65,10 +65,7 @@
     --font-family-body: 'Arial', sans-serif;
     --font-family-heading: 'Helvetica', sans-serif;
     --font-family-monospace: 'Courier New', monospace;
-    --font-family-cursive: 'Comic Sans MS', cursive;
     --font-family-fantasy: 'Impact', fantasy;
-    --font-family-serif: 'Times New Roman', serif;
-    --font-family-sans-serif: 'Verdana', sans-serif;
     
     --text-xs: 0.75rem;     /* 12px */
     --text-sm: 0.875rem;    /* 14px */
